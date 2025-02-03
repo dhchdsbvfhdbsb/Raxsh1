@@ -1,0 +1,39 @@
+.promo-section {
+    background: linear-gradient(142.85deg, rgba(255, 255, 255, 0.44) -63.81%, rgba(153, 153, 153, 0.11) 69.62%);
+    text-align: left;
+    width: 100%;
+    border-radius: 8px;
+    color: #fff;
+    height: 600px;
+  }
+  
+
+.promo-content{
+    margin-left: 190px;
+    padding-top: 106px;
+  
+  }
+  .promo-title{
+    font-size: 56px;
+    width: 416px;
+    height: 134px;
+  }
+  
+  .promo-text{
+    width: 557px;
+    height: 150px;
+    font-size: 20px;;
+  }
+  
+
+  .promo-button {
+    display: inline-block;
+    padding: 16px 24px;
+    background-color: #fce702;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 48px;
+    box-shadow: 0px 4px 128px rgba(252, 232, 3, 0.32), 0px 4px 64px rgba(252, 232, 3, 0.32);
+  } 

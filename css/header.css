@@ -1,0 +1,113 @@
+.header {
+    width: 100%;
+    background: linear-gradient(142.85deg, rgba(255, 255, 255, 0.44) -63.81%, rgba(153, 153, 153, 0.11) 69.62%);
+    box-shadow: 50px 0px 50px 0px rgba(0, 0, 0, 0.5);    
+    padding-left: 171px;
+    padding-right: 133px;
+    position: relative;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+
+.navigation{
+    display: inline-block;
+    padding: 9px 49px;
+    background-color: #fce702;
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 48px;
+
+    /* box-shadow: 0px 4px 128px rgba(252, 232, 3, 0.32), 0px 4px 64px rgba(252, 232, 3, 0.32); */
+
+}
+
+
+.navigation a{
+    height: 18px;
+    
+        /* box-shadow: 0px 4px 128px rgba(252, 232, 3, 0.32), 0px 4px 64px rgba(252, 232, 3, 0.32); */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 13px;
+}
+    
+
+
+.logo{
+ padding-top: 25px;
+}
+/* ЛОГОТИП */
+.logo img {
+    height: 38.23px;
+}
+.menu{
+    margin-top: 13px;
+    /* margin-left: 78px; */
+    margin-right: 287px;
+}
+
+
+
+
+/* МЕНЮ */
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 68px;
+}
+
+.menu ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    height: 18px; /* Подстроено под line-height */
+}
+
+.menu ul li a:hover {
+    color: #f1c40f;
+}
+
+
+
+
+/* КНОПКА "БОНУС" */
+.bonus-button .btn {
+    text-decoration: none;
+    background-color: rgba(255, 237, 0, 1);  
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 51px;
+    padding-right: 52px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.bonus-button .btn:hover {
+    background-color: #E6B800;
+}
+
+
+
+
+/* РАЗДЕЛИТЕЛЬНАЯ ЛИНИЯ */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,12 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0A0A0A; /* Темный фон, как в оригинале */
+    color: #fff;
+}
