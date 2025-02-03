@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 1; i <= totalChannels; i++) {
         channels.push(`
             <div class="channel-card">
-                <img src="/img/text.svg" alt="Лого" class="channel-logo">
+                <img src="./img/text.svg" alt="Лого" class="channel-logo">
                 <div class="channel-info">
                     <span class="channel-name">Канал ${i}</span>
                     <button class="live-btn">Live</button>
